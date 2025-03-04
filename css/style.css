@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kosugi&family=M+PLUS+2:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
 
 body{
-    animation: startup 1.5s;
+
 }
 
 *{
@@ -50,6 +50,11 @@ body{
     animation: slide_anime01 1.5s;
 }
 
+#main_content{
+    margin-left: 42px;
+    margin-top: -5px;
+}
+
 @keyframes slide_anime01 {
     0%{
         transform: translateX(-100%);
@@ -62,7 +67,7 @@ body{
 
 @keyframes startup {
     0%{
-        filter: blur(5.8px);
+        filter: blur(3px);
         opacity: 0.5;
     }
 
@@ -77,3 +82,4 @@ body{
         opacity: 1;
     }
 }
+
